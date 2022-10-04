@@ -86,6 +86,8 @@ const CreateEvent = () => {
 
                 <input type="file" {...register('picture', { required: true })} name='picture' className="form-control m-5" />
                 <button type='submit' className='btn btn-primary' style={{ float: 'right', marginTop: '2rem', width: '10rem' }}>Next 👉</button>
+                <button type='submit' className='btn btn-primary' onClick={() => navigate('/')} style={{ float: 'left', marginTop: '2rem', width: '10rem' }}>Home</button>
+
             </form>
         </MainContainer>
     )
